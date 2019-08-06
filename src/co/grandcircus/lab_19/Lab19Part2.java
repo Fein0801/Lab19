@@ -19,6 +19,8 @@ public class Lab19Part2 {
 	}
     }
 
+    // I estimate this method may be time complexity O(n) because it only uses one
+    // for-each loop
     public static int[] getFrequency(int[] nums) {
 	int[] frequency = new int[11];
 
